@@ -24,7 +24,7 @@ export default () => {
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={image} height='500' className='carousel-image'></img>
+                        <img src={image} height='600' alt="img" className='carousel-image'></img>
                     </SwiperSlide>
                 ))}
             </Swiper>
