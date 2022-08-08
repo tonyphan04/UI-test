@@ -1,0 +1,2 @@
+- Using swiper.js to create the carousel
+- Using MaterialUI as main design library 
