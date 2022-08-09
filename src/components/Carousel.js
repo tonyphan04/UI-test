@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/swiper.min.css'
 
-import './style.css'
+import '../style.css'
 
-import ts_1 from './media/download.jpg'
-import ts_2 from './media/download1.jpg'
-import ts_3 from './media/download2.jpg'
+import ts_1 from '../media/download.jpg'
+import ts_2 from '../media/download1.jpg'
+import ts_3 from '../media/download2.jpg'
 
 const images = [ts_1, ts_2, ts_3]
 

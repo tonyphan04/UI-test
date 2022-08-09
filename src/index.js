@@ -2,15 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Carousel from './Carousel'
-import LogIn from './LogIn'
+import Carousel from './components/Carousel'
+import LogIn from './containers/LogIn'
+import AboutUs from './containers/AboutUs'
+import FAQ from './containers/FAQ'
+import MenuBar from './components/MenuBar'
 import reportWebVitals from './reportWebVitals';
+import { Avatar } from '@mui/material';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App></App>
-    <LogIn></LogIn>
   </React.StrictMode>
 );
 

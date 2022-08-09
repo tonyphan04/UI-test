@@ -2,3 +2,4 @@
 - Using MaterialUI as main design library 
 -----------------
 - Use ThemeProvider and createTheme to customize the app bar's color. 
+- Use react-router-do for redirect page
