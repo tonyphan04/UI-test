@@ -8,7 +8,7 @@ const containerStyle = {
 
 export default function Home() {
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyDCx_vmSMifQto6MOki5GlsM4Bc2m2B-ZY',
+        googleMapsApiKey: process.env.GOOGLE_MAP_API_KEY,
     });
 
     if (!isLoaded) return <div>Loading...</div>;
