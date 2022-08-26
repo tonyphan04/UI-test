@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import Carousel from './components/Carousel'
 import LogIn from './containers/LogIn'
-import AboutUs from './containers/AboutUs'
+import AboutUs from './containers/AboutUs/AboutUs'
 import FAQ from './containers/FAQ'
 import MenuBar from './components/MenuBar'
 import reportWebVitals from './reportWebVitals';

@@ -19,7 +19,6 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Stack from '@mui/material/Stack';
-import Footer from '../components/Footer'
 import '../style.css'
 
 const Root = styled('div')(({ theme }) => ({
@@ -55,13 +54,9 @@ export default function InputAdornments() {
     return (
         <div style={{ backgroundColor: "#f3f3f9" }}>
             <MenuBar></MenuBar>
-            <Box sx={{
-                display: 'grid',
-                justifyContent: 'center',
-                height: 600,
-            }}>
+            <Box sx={{ display: 'grid', justifyContent: 'center' }}>
                 <div>
-                    <h2 className='login-heading'>Welcome Back</h2>
+                    <h2 className='login-heading'>Sign Up</h2>
                 </div>
                 <div>
                     <FormControl sx={{ mb: 2, width: '50ch' }} variant="outlined">
@@ -99,19 +94,9 @@ export default function InputAdornments() {
                         />
                     </FormControl>
                 </div>
-                <FormControl>
-                    <FormControlLabel
-                        value="Remember me"
-                        control={<Checkbox />}
-                        label="Remember me"
-                        labelPlacement="Remember me"
-                    />
-                </FormControl>
-
-                <Button variant="contained" sx={{ mt: 1, width: '55ch' }}>Login</Button>
-                <Typography sx={{ ml: 37, mt: 2 }}> Forget password?</Typography>
+                <Button variant="contained" sx={{ mt: 3, width: '55ch' }}>Sign up</Button>
                 <Root>
-                    <Divider sx={{ mb: 1 }}>OR</Divider>
+                    <Divider sx={{ mt: 3, mb: 3 }}>OR</Divider>
                 </Root>
                 <Stack direction="row" spacing={3} sx={{ mb: 5, justifyContent: 'center' }}>
                     <Button variant="contained">Contained</Button>
@@ -121,7 +106,6 @@ export default function InputAdornments() {
                 </Stack>
             </Box >
             <Divider></Divider>
-            <Footer></Footer>
         </div>
     );
 }

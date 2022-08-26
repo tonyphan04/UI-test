@@ -2,4 +2,6 @@
 - Using MaterialUI as main design library 
 -----------------
 - Use ThemeProvider and createTheme to customize the app bar's color. 
-- Use react-router-do for redirect page
+- Use react-router-dom for redirect page
+-----------------
+- Use Google Maps API and marker to show the uni's position 

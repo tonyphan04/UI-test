@@ -53,14 +53,14 @@ export default function CustomizedAccordions() {
     };
 
     return (
-        <div>
+        <div style={{ backgroundColor: "#f3f3f9", height: 1000 }}>
             <MenuBar></MenuBar>
             <Stack
                 justifyContent="center"
                 alignItems="center"
                 spacing={2}
             >
-                <h2>FAQs</h2>
+                <h2 className='faq-heading'>FAQs</h2>
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
                     <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                         <Typography>Collapsible Group Item #1</Typography>

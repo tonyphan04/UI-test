@@ -1,0 +1,51 @@
+.aboutUs-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f3f3f9;
+    padding-top: 100px;
+    height: 150px;
+    color: #181c47
+        /* border: 2px solid black; */
+}
+
+.text {
+    margin: 0px 500px 50px 500px;
+}
+
+.founder {
+    display: flex;
+    padding-left: 400px;
+    background-color: #f3f3f9;
+    padding-top: 50px;
+    height: 250px;
+}
+
+.founder2 {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 50px;
+    height: 250px;
+}
+
+.founder-text,
+.founder-text2 {
+    padding-left: 100px;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.founder-description {
+    padding-left: 100px;
+    padding-right: 300px;
+    text-align: justify;
+}
+
+.founder-description2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.founder-image2 {
+    padding-right: 300px
+}
